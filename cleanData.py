@@ -5,6 +5,7 @@ import string
 import numpy
 import pandas as pd
 import nltk
+from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag
 from plotly import __version__
